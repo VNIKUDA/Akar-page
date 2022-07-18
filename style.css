@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(189, 183, 183);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    box-shadow: inset 0 0 5px rgb(5, 233, 214);
+    background-color: rgb(0, 255, 234);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px rgb(205, 203, 203);
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    box-shadow: inset 0 0 5px rgb(6, 193, 178);
+    background-color: rgb(8, 210, 194);
+}
+
+hr {
+    width: 95%;
+    height: 3px;
+    background-color: grey;
+}
+
+.header {
+    width: 94%;
+    margin-left: 0.5%;
+    margin-top: -10.1%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 25px;
+    background-color: rgb(225, 224, 224);
+    padding: 2%;
+    position: fixed;
+    background-image: url('assets/Logo.png');
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position-x: 5%;
+    background-position-y: 55%;
+}
+.block {
+    background-color: white;
+    width: 95%;
+    height: 900px;
+    margin-left: 2.5%;
+    margin-top: 10.5%;
+    margin-bottom: 2%;
+    border-radius: 3%;
+}
+
+.link {
+    color: rgb(33, 33, 171);
+    background-color: rgb(212, 207, 207);
+    width: 40%;
+    padding: 0.5% 0px;
+    margin-left: 25%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 2%;
+    width: 101.0%;
+    height: 150px;
+    border-radius: 40px;
+    margin-left: -0.6%;
+}
+
+.About_project {
+    width: 90%;
+    height: 70%;
+    margin-left: 2%;
+    padding-top: 1%;
+}
+
+.about-img {
+    width: 49%;
+    height: 42%;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+
+.download {
+    padding-left: 3%;
+    padding-top: 1%;
+    width: 98%;
+    height: 98%;
+}
+
+.download_zip {
+    width: 13%;
+    height: 2%;
+    background-color: darkgrey;
+    border-radius: 25px;
+    padding: 2%;
+    margin-left: 2%;
+}
+
+.a-download {
+    color: white;
+}
+
+.download_zip:hover {
+    background-color: lightgrey;
+}
+
+.download_zip:hover .a-download{
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn {
+    margin-left: 3%;
+    background-color: rgb(46, 46, 46);
+    padding: 1.5%;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.btn:hover a {
+    color: black;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.open-page {
+    background-color: lightgrey
+}
+
+.a-open {
+    color: black;
+}
+
+.open-page:hover {
+    background-color: white;
+}
